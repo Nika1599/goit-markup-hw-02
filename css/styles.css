@@ -25,6 +25,15 @@ button {
 image {
   display: block;
 }
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11111;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
 /* Common styles */
 
 /* Header styles */
@@ -38,7 +47,7 @@ image {
   color: #2e2f42;
 }
 
-.text-color {
+.logo-part {
   color: #4d5ae5;
 }
 
@@ -67,3 +76,66 @@ image {
   color: #404bbf;
 }
 /* Header styles */
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  color: #fff;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.benefit-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.team-paragraph {
+  text-align: center;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.footer-page {
+  background: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-paragraph {
+  color: #f4f4fd;
+}
